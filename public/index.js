@@ -1,4 +1,4 @@
-console.log('praise cage')
+console.log('Praise Cage from client side js')
 let timeSpan = document.querySelector('#time')
 
 function myTimer() {

@@ -7,24 +7,18 @@ export default function (state = {}) {
 <html>
 <head>
   <title>${title}</title>
+  <style>
+   h1 {
+     font-size: 3em;
+   }
+   p {
+     font-size: 2em;
+   }
+  </style>
 </head>
  <body>
   ${Main()}
-  <script>
-
-    console.log('praise cage')
-    let timeSpan = document.querySelector('#time')
-
-    function myTimer() {
-      let date = new Date()
-      let time = date.toLocaleTimeString()
-      timeSpan.textContent = time
-    }
-
-    let updateTime = setInterval(myTimer, 1000)
-
-
-  </script>
+  <script src='_static/index.js'> </script>
  </body>
 </html>
   `

@@ -8,7 +8,7 @@ export async function handler(req) {
       'content-type': 'text/html; charset=utf8'
     },
     body: HTML({
-      title: 'praise cage'
+      title: 'Worship Clock'
     })
   }
 }
